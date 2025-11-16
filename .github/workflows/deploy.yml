@@ -40,5 +40,5 @@ jobs:
         run: |
           npm cache clean --force
           npm install
-          npm run deploy
+          npm run build
           echo Completed Workflow
